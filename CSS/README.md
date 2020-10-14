@@ -1,7 +1,24 @@
 # CSS
 ## 목차
+- 배치 관련 속성
+  - [position](#position)
+  - [z-index]()
 - 텍스트 관련 속성
   - [white-space](#white-space)
+
+## 배치 관련 속성
+### position
+태그의 위치를 결정하는 CSS
+- `static`
+- `relative`
+- `absolute`
+- `fixed`
+- `sticky`
+
+### z-index
+y축 위치를 결정, integer 값을 가짐
+- 기본 값 : 0
+- 값이 클수록 더 상단에 배치됨
 
 ## 텍스트 관련 속성
 ### [white-space](https://developer.mozilla.org/ko/docs/Web/CSS/white-space)
