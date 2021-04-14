@@ -1,10 +1,20 @@
 # Git 명령어 정리
 
 ### Branch 생성 & 체크아웃
+
 ```bash
 $ git branch feature/name && git checkout feature/name
 ```
-* **체크아웃** : 선택한 브랜치로 전환하는 것
+- **체크아웃** : 선택한 브랜치로 전환하는 것
+
+#### 체크아웃의 또 다른 기능 - 수정한 파일 되돌리기
+
+```bash
+$ git checkout -- [원상복구할 파일]
+```
+
+VSCode의 SOURCE CONTROL 메뉴에서  
+변경된 파일의 <kbd>되돌리기</kbd>(Discard Changes) 버튼이 수행하는 것과 같음
 
 ### Branch 이름 수정하기
 ```bash
@@ -59,8 +69,8 @@ $ git commit --amend
 $ git rebase -i HEAD~[돌아갈 커밋의 위치]
 ```
 
-* **돌아갈 커밋의 위치** : _(말을 이상하게 했는데;)_ 최신 커밋으로부터 몇 번째 만큼 떨어졌는지
-* ex) `git rebase -i HEAD~3` > 최신 3개의 커밋을 수정할 수 있다.
+- **돌아갈 커밋의 위치** = HEAD로부터 몇개나 떨어졌는지  
+  ex) `git rebase -i HEAD~3` > 최신 3개의 커밋을 수정할 수 있다.
 
 ```
 pick 04ac327 첫 번째 커밋
