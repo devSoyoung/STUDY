@@ -16,6 +16,10 @@ $ git checkout -- [원상복구할 파일]
 VSCode의 SOURCE CONTROL 메뉴에서  
 변경된 파일의 <kbd>되돌리기</kbd>(Discard Changes) 버튼이 수행하는 것과 같음
 
+폴더 - 폴더 안에 들어있는 파일은 path를 쓰기가 번거로우니까  
+VSCode의 경우 **Copy Relative Path**로 path를 복사하고 입력하면 됨  
+(사실 그냥 되돌리기 버튼 누르는게 제일 나음ㅎㅎ)
+
 ### Branch 이름 수정하기
 ```bash
 $ git branch -m [기존 브랜치명] [변경할 브랜치명]
