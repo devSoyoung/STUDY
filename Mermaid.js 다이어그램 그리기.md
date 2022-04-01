@@ -20,6 +20,7 @@ sequenceDiagram
   
   Note right of John: Rational thoughts <br/>prevail...
   
+  %% 주석은 이렇게 다는거야
   John-->>Alice: Great!
   John->>Bob: How about you?
   Bob-->>John: Jolly good!
@@ -39,6 +40,7 @@ sequenceDiagram
   
   Note right of John: Rational thoughts <br/>prevail...
   
+  %% 주석은 이렇게 다는거야
   John-->>Alice: Great!
   John->>Bob: How about you?
   Bob-->>John: Jolly good!
