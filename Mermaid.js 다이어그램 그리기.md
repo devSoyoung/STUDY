@@ -12,6 +12,8 @@ sequenceDiagram
   participant John
   
   Alice->>John: Hello John, how are you?
+  Note over Alice,John: A typical interaction
+  
   loop Helathcheck
     John->>John: Fight against hypochondria
   end
@@ -29,6 +31,8 @@ sequenceDiagram
   participant Bob
   
   Alice->>John: Hello John, how are you?
+  Note over Alice,John: A typical interaction
+  
   loop Helathcheck
     John->>John: Fight against hypochondria
   end
